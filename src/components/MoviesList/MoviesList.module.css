@@ -1,0 +1,66 @@
+.d_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+    text-align: center;
+}
+.main_loyaut {
+
+}
+.light{
+    background: snow;
+    color: black;
+}
+
+.dark{
+    background: black;
+    text-shadow: 1px 1px #000;
+    color: snow;
+}
+.botton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 200px;
+    align-items: center;
+}
+.prev_button{
+    background: black;
+    border: 1px solid snow;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 163px;
+    height: 54px;
+    color:#ffff;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.next_button{
+    background: snow;
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 163px;
+    height: 54px;
+    color:black;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40%;
+}
+.nigth_mode{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.switch{
+    margin-left: 20px;
+    margin-right: 20px;
+}
